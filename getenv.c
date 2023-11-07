@@ -1,6 +1,6 @@
 #include "shell.h"
 
-char*_getenv(char *variable)
+char *_getenv(char *variable)
 {
     char *tmp, *key, *value, *env;
     int i;
