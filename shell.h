@@ -27,7 +27,7 @@ int _strlen(char *s);
 char *_strcat(char *dest, char *src);
 char *_strcpy(char *dest, char *src);
 void reverse_string(char *str, int len);
-void freearray2D(char **array);
+void freearrayofstring(char **array);
 void print_error(char *name, char *cmd, int idx);
 
 #endif
