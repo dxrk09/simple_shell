@@ -16,7 +16,7 @@ int main(int ac, char **argv)
 
   while (1)
   {
-      line = read_line();
+      line = get_line();
       if (line == NULL) /* Reach End Of File (Ctrl + D) */
       {
           if (isatty(STDIN_FILENO))
