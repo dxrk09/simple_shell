@@ -9,9 +9,9 @@ int _execute(char **command, char *argv)
     full_cmd = _getpath(command[0]);
     if (!full_cmd)
     {
-        printerror();
+        printerror(argv[0], command[0], idx);
         freearrayofstring(command);
-        return();
+        return(127);
     }
     
     child = fork();
