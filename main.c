@@ -7,7 +7,7 @@
  * Return: status
 */
 
-int main(int ac, char **argv, char **env)
+int main(int ac, char **argv)
 {
   char *line = NULL, **command  = NULL;
   int status = 0, idx = 0;
