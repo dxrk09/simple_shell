@@ -15,7 +15,7 @@
 
 extern char **environ;
 
-char *read_line(void);
+char *get_line(void);
 char **tokenizer(char *line);
 int _execute(char **command, char **argv, int idx);
 char *_getenv(char *variable);
